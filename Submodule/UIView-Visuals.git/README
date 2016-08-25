@@ -1,0 +1,5 @@
+UIView Category wrapping some basic CALayer visual enhancements (Drop Shadows, Borders etc.).
+---
+Note: Include QuartzCore.framework in your project!
+
+mail@boxedfolder.com

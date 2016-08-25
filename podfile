@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+
+target 'Jipai' do
+  pod 'PLCameraStreamingKit', '1.8.1'
+  pod 'AFNetworking', '3.0'
+  pod 'AFNetworkActivityLogger', git: 'https://github.com/AFNetworking/AFNetworkActivityLogger.git', branch: '3_0_0'
+end

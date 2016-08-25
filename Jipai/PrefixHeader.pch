@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  Jipai
+//
+//  Created on 14/11/4.
+//  Copyright (c) 2015年 Pili Engineering. All rights reserved.
+//
+
+#ifndef Jipai_PrefixHeader_pch
+#define Jipai_PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "JPMacroDefines.h"
+#import "UIColor+Hex.h"
+#endif
+
+#endif

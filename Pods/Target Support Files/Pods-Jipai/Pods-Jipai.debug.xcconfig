@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworkActivityLogger" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/HappyDNS" "${PODS_ROOT}/Headers/Public/PLCameraStreamingKit" "${PODS_ROOT}/Headers/Public/PLStreamingKit" "${PODS_ROOT}/Headers/Public/pili-librtmp"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworkActivityLogger" "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/HappyDNS" "$PODS_CONFIGURATION_BUILD_DIR/pili-librtmp" $(inherited) "${PODS_ROOT}/PLCameraStreamingKit/Pod/Library/lib" $(inherited) "${PODS_ROOT}/PLStreamingKit/Pod/Library/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworkActivityLogger" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/HappyDNS" -isystem "${PODS_ROOT}/Headers/Public/PLCameraStreamingKit" -isystem "${PODS_ROOT}/Headers/Public/PLStreamingKit" -isystem "${PODS_ROOT}/Headers/Public/pili-librtmp"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworkActivityLogger" -l"AFNetworking" -l"HappyDNS" -l"PLCameraStreamingKit" -l"PLStreamingKit" -l"c++" -l"pili-librtmp" -l"resolv" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMedia" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "VideoToolbox"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

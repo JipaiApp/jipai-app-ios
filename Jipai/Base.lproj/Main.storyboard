@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="H2f-lR-Fqm">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Capture View Controller-->
+        <scene sceneID="Ne5-zP-8hh">
+            <objects>
+                <viewController storyboardIdentifier="JPCaptureViewController" id="x7c-gI-5nf" customClass="JPCaptureViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jr8-Md-daE">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" id="kwc-4A-vLq">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" id="Bet-l7-bM5">
+                                <rect key="frame" x="0.0" y="260" width="568" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem image="btn_lignt_off" id="shC-y0-ggx">
+                                        <connections>
+                                            <action selector="lightButtonPressed:" destination="x7c-gI-5nf" id="eyE-CW-TLU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="30" style="plain" systemItem="fixedSpace" id="VAM-mS-M74"/>
+                                    <barButtonItem image="btn_change" id="ZMh-TT-Jl6">
+                                        <connections>
+                                            <action selector="switchButtonPressed:" destination="x7c-gI-5nf" id="JkI-zd-dJe"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="30" style="plain" systemItem="fixedSpace" id="tCP-q3-ZxV"/>
+                                    <barButtonItem image="bps_high" id="DJ3-Yo-Kpo">
+                                        <connections>
+                                            <action selector="bpsButtonPressed:" destination="x7c-gI-5nf" id="UZE-Bd-G2e"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="r5n-m7-6tf"/>
+                                    <barButtonItem style="plain" id="Jeb-y0-CBK">
+                                        <view key="customView" contentMode="scaleToFill" id="5Qt-Qo-Dnj">
+                                            <rect key="frame" x="540" y="6" width="44" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cRH-hf-swU">
+                                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <state key="normal">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="goLiveButtonPressed:" destination="x7c-gI-5nf" eventType="touchUpInside" id="JLa-M8-2NO"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KZ0-Se-XPg"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="bpsItem" destination="DJ3-Yo-Kpo" id="Bgk-JZ-bNg"/>
+                        <outlet property="goLiveButton" destination="cRH-hf-swU" id="AGU-dP-HGF"/>
+                        <outlet property="lightItem" destination="shC-y0-ggx" id="4Cl-dc-Fmx"/>
+                        <outlet property="previewView" destination="kwc-4A-vLq" id="a5U-So-zJ6"/>
+                        <outlet property="toolbar" destination="Bet-l7-bM5" id="APx-qY-QgF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mp4-o2-WTC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2410" y="398"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZIj-C1-nko">
+            <objects>
+                <navigationController storyboardIdentifier="CaptureNavController" automaticallyAdjustsScrollViewInsets="NO" id="H2f-lR-Fqm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="biG-aH-65y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="x7c-gI-5nf" kind="relationship" relationship="rootViewController" id="4O5-wB-ath"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtp-M2-M4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1910.9333333333334" y="406.12"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bps_high" width="36" height="32"/>
+        <image name="btn_change" width="24" height="20"/>
+        <image name="btn_lignt_off" width="19" height="27"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

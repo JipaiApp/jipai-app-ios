@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BC9FE898CCE33EDE79E9178 /* libPods-Jipai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BC57FE0CF08DF7276CDE24 /* libPods-Jipai.a */; };
+		76678BA91A1378170012B545 /* begin_video_record.caf in Resources */ = {isa = PBXBuildFile; fileRef = 76678BA71A1378170012B545 /* begin_video_record.caf */; };
+		76678BAA1A1378170012B545 /* end_video_record.caf in Resources */ = {isa = PBXBuildFile; fileRef = 76678BA81A1378170012B545 /* end_video_record.caf */; };
+		76989A8A1A369E7200725BE5 /* JPQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76989A891A369E7200725BE5 /* JPQRViewController.m */; };
+		76989A8D1A370F5E00725BE5 /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 76989A8C1A370F5E00725BE5 /* UIImage+QRCode.m */; };
+		769A234F1A09FA8900502611 /* JPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 769A234E1A09FA8900502611 /* JPButton.m */; };
+		769A23521A0A31BA00502611 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 769A23511A0A31BA00502611 /* UIImage+Color.m */; };
+		769A235C1A0A40C900502611 /* UIImage+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 769A235B1A0A40C900502611 /* UIImage+View.m */; };
+		769A235F1A0A45BC00502611 /* JPShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 769A235E1A0A45BC00502611 /* JPShareViewController.m */; };
+		769E08861A11281B009EB475 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769E08851A11281B009EB475 /* MessageUI.framework */; };
+		76CE786B1A1BA24F007BA763 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CE786A1A1BA24F007BA763 /* GLKit.framework */; };
+		76CE786D1A1BA25B007BA763 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CE786C1A1BA25B007BA763 /* OpenGLES.framework */; };
+		76D2BA381A0889D2003A2885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2BA371A0889D2003A2885 /* main.m */; };
+		76D2BA3B1A0889D2003A2885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2BA3A1A0889D2003A2885 /* AppDelegate.m */; };
+		76D2BA411A0889D2003A2885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D2BA3F1A0889D2003A2885 /* Main.storyboard */; };
+		76D2BA431A0889D2003A2885 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D2BA421A0889D2003A2885 /* Images.xcassets */; };
+		76D2BA461A0889D2003A2885 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76D2BA441A0889D2003A2885 /* LaunchScreen.xib */; };
+		76D2BA641A088F37003A2885 /* JPCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2BA631A088F37003A2885 /* JPCaptureViewController.m */; };
+		76D2BC111A08BEB9003A2885 /* JPApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2BC101A08BEB9003A2885 /* JPApiManager.m */; };
+		76D2BC141A08C0BD003A2885 /* JPApiManager+Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2BC131A08C0BD003A2885 /* JPApiManager+Stream.m */; };
+		76D2BC161A08CD38003A2885 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC151A08CD38003A2885 /* AVFoundation.framework */; };
+		76D2BC181A08CD3D003A2885 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC171A08CD3D003A2885 /* libz.dylib */; };
+		76D2BC1A1A08CD55003A2885 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC191A08CD55003A2885 /* CoreData.framework */; };
+		76D2BC1C1A08CD5C003A2885 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC1B1A08CD5C003A2885 /* Security.framework */; };
+		76D2BC1E1A08CD63003A2885 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC1D1A08CD63003A2885 /* CoreVideo.framework */; };
+		76D2BC201A08CD6C003A2885 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC1F1A08CD6C003A2885 /* CoreMedia.framework */; };
+		76D2BC221A08CD73003A2885 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC211A08CD73003A2885 /* AudioToolbox.framework */; };
+		76D2BC241A08CD7A003A2885 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC231A08CD7A003A2885 /* CFNetwork.framework */; };
+		76D2BC261A08CD80003A2885 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC251A08CD80003A2885 /* CoreGraphics.framework */; };
+		76D2BC281A08CD87003A2885 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC271A08CD87003A2885 /* UIKit.framework */; };
+		76D2BC2D1A08CED7003A2885 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D2BC2A1A08CED7003A2885 /* libWeChatSDK.a */; };
+		76D2BC3C1A091D4B003A2885 /* CAMediaTimingFunction+AdditionalEquations.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2BC381A091D4B003A2885 /* CAMediaTimingFunction+AdditionalEquations.m */; };
+		76D2BC3E1A091D4B003A2885 /* UIView+Visuals.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2BC3B1A091D4B003A2885 /* UIView+Visuals.m */; };
+		76D2BC411A092390003A2885 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D2BC401A092390003A2885 /* UIColor+Hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6609398A53FEADA1BD15A81C /* Pods-Jipai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jipai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jipai/Pods-Jipai.debug.xcconfig"; sourceTree = "<group>"; };
+		76678BA71A1378170012B545 /* begin_video_record.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = begin_video_record.caf; sourceTree = "<group>"; };
+		76678BA81A1378170012B545 /* end_video_record.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = end_video_record.caf; sourceTree = "<group>"; };
+		76989A881A369E7200725BE5 /* JPQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPQRViewController.h; sourceTree = "<group>"; };
+		76989A891A369E7200725BE5 /* JPQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPQRViewController.m; sourceTree = "<group>"; };
+		76989A8B1A370F5E00725BE5 /* UIImage+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCode.h"; sourceTree = "<group>"; };
+		76989A8C1A370F5E00725BE5 /* UIImage+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCode.m"; sourceTree = "<group>"; };
+		769A234D1A09FA8900502611 /* JPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPButton.h; sourceTree = "<group>"; };
+		769A234E1A09FA8900502611 /* JPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPButton.m; sourceTree = "<group>"; };
+		769A23501A0A31BA00502611 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		769A23511A0A31BA00502611 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		769A235A1A0A40C900502611 /* UIImage+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+View.h"; sourceTree = "<group>"; };
+		769A235B1A0A40C900502611 /* UIImage+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+View.m"; sourceTree = "<group>"; };
+		769A235D1A0A45BC00502611 /* JPShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPShareViewController.h; sourceTree = "<group>"; };
+		769A235E1A0A45BC00502611 /* JPShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPShareViewController.m; sourceTree = "<group>"; };
+		769E08851A11281B009EB475 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		76CE786A1A1BA24F007BA763 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		76CE786C1A1BA25B007BA763 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		76D2BA321A0889D2003A2885 /* Jipai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jipai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D2BA361A0889D2003A2885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D2BA371A0889D2003A2885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76D2BA391A0889D2003A2885 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76D2BA3A1A0889D2003A2885 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76D2BA401A0889D2003A2885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76D2BA421A0889D2003A2885 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76D2BA451A0889D2003A2885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76D2BA621A088F37003A2885 /* JPCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCaptureViewController.h; sourceTree = "<group>"; };
+		76D2BA631A088F37003A2885 /* JPCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCaptureViewController.m; sourceTree = "<group>"; };
+		76D2BB0E1A08B474003A2885 /* JPMacroDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPMacroDefines.h; sourceTree = "<group>"; };
+		76D2BB0F1A08B5F8003A2885 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		76D2BC0F1A08BEB9003A2885 /* JPApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPApiManager.h; sourceTree = "<group>"; };
+		76D2BC101A08BEB9003A2885 /* JPApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPApiManager.m; sourceTree = "<group>"; };
+		76D2BC121A08C0BD003A2885 /* JPApiManager+Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JPApiManager+Stream.h"; sourceTree = "<group>"; };
+		76D2BC131A08C0BD003A2885 /* JPApiManager+Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JPApiManager+Stream.m"; sourceTree = "<group>"; };
+		76D2BC151A08CD38003A2885 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		76D2BC171A08CD3D003A2885 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		76D2BC191A08CD55003A2885 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		76D2BC1B1A08CD5C003A2885 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		76D2BC1D1A08CD63003A2885 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		76D2BC1F1A08CD6C003A2885 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		76D2BC211A08CD73003A2885 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		76D2BC231A08CD7A003A2885 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		76D2BC251A08CD80003A2885 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76D2BC271A08CD87003A2885 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76D2BC2A1A08CED7003A2885 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		76D2BC2B1A08CED7003A2885 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		76D2BC2C1A08CED7003A2885 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		76D2BC371A091D4B003A2885 /* CAMediaTimingFunction+AdditionalEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAMediaTimingFunction+AdditionalEquations.h"; sourceTree = "<group>"; };
+		76D2BC381A091D4B003A2885 /* CAMediaTimingFunction+AdditionalEquations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAMediaTimingFunction+AdditionalEquations.m"; sourceTree = "<group>"; };
+		76D2BC3A1A091D4B003A2885 /* UIView+Visuals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Visuals.h"; sourceTree = "<group>"; };
+		76D2BC3B1A091D4B003A2885 /* UIView+Visuals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Visuals.m"; sourceTree = "<group>"; };
+		76D2BC3F1A092390003A2885 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		76D2BC401A092390003A2885 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		91B576E604BFA5873E1C460E /* Pods-Jipai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jipai.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jipai/Pods-Jipai.release.xcconfig"; sourceTree = "<group>"; };
+		F7BC57FE0CF08DF7276CDE24 /* libPods-Jipai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jipai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76D2BA2F1A0889D2003A2885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CE786D1A1BA25B007BA763 /* OpenGLES.framework in Frameworks */,
+				76CE786B1A1BA24F007BA763 /* GLKit.framework in Frameworks */,
+				769E08861A11281B009EB475 /* MessageUI.framework in Frameworks */,
+				76D2BC161A08CD38003A2885 /* AVFoundation.framework in Frameworks */,
+				76D2BC281A08CD87003A2885 /* UIKit.framework in Frameworks */,
+				76D2BC2D1A08CED7003A2885 /* libWeChatSDK.a in Frameworks */,
+				76D2BC261A08CD80003A2885 /* CoreGraphics.framework in Frameworks */,
+				76D2BC241A08CD7A003A2885 /* CFNetwork.framework in Frameworks */,
+				76D2BC221A08CD73003A2885 /* AudioToolbox.framework in Frameworks */,
+				76D2BC201A08CD6C003A2885 /* CoreMedia.framework in Frameworks */,
+				76D2BC1E1A08CD63003A2885 /* CoreVideo.framework in Frameworks */,
+				76D2BC1C1A08CD5C003A2885 /* Security.framework in Frameworks */,
+				76D2BC1A1A08CD55003A2885 /* CoreData.framework in Frameworks */,
+				76D2BC181A08CD3D003A2885 /* libz.dylib in Frameworks */,
+				4BC9FE898CCE33EDE79E9178 /* libPods-Jipai.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76678BA61A1378170012B545 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				76678BA71A1378170012B545 /* begin_video_record.caf */,
+				76678BA81A1378170012B545 /* end_video_record.caf */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		76D2BA291A0889D2003A2885 = {
+			isa = PBXGroup;
+			children = (
+				76678BA61A1378170012B545 /* sounds */,
+				76D2BB141A08BE67003A2885 /* Submodule */,
+				76D2BA651A08B3D8003A2885 /* libs */,
+				76D2BA341A0889D2003A2885 /* Jipai */,
+				76D2BC2E1A08CEF7003A2885 /* Frameworks */,
+				76D2BA331A0889D2003A2885 /* Products */,
+				7E1824CE195B9E097B38B62A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		76D2BA331A0889D2003A2885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BA321A0889D2003A2885 /* Jipai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D2BA341A0889D2003A2885 /* Jipai */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BC2F1A08D6A2003A2885 /* View */,
+				76D2BC0E1A08BEAC003A2885 /* Api */,
+				76D2BB0D1A08B467003A2885 /* Util */,
+				76D2BA5B1A088EDE003A2885 /* VC */,
+				76D2BA391A0889D2003A2885 /* AppDelegate.h */,
+				76D2BA3A1A0889D2003A2885 /* AppDelegate.m */,
+				76D2BA421A0889D2003A2885 /* Images.xcassets */,
+				76D2BA441A0889D2003A2885 /* LaunchScreen.xib */,
+				76D2BA351A0889D2003A2885 /* Supporting Files */,
+			);
+			path = Jipai;
+			sourceTree = "<group>";
+		};
+		76D2BA351A0889D2003A2885 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BA361A0889D2003A2885 /* Info.plist */,
+				76D2BA371A0889D2003A2885 /* main.m */,
+				76D2BB0F1A08B5F8003A2885 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76D2BA5B1A088EDE003A2885 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BA3F1A0889D2003A2885 /* Main.storyboard */,
+				76D2BA621A088F37003A2885 /* JPCaptureViewController.h */,
+				76D2BA631A088F37003A2885 /* JPCaptureViewController.m */,
+				769A235D1A0A45BC00502611 /* JPShareViewController.h */,
+				769A235E1A0A45BC00502611 /* JPShareViewController.m */,
+				76989A881A369E7200725BE5 /* JPQRViewController.h */,
+				76989A891A369E7200725BE5 /* JPQRViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		76D2BA651A08B3D8003A2885 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BC291A08CED7003A2885 /* WeChatSDK_64 */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		76D2BB0D1A08B467003A2885 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BB0E1A08B474003A2885 /* JPMacroDefines.h */,
+				76D2BC3F1A092390003A2885 /* UIColor+Hex.h */,
+				76D2BC401A092390003A2885 /* UIColor+Hex.m */,
+				769A23501A0A31BA00502611 /* UIImage+Color.h */,
+				769A23511A0A31BA00502611 /* UIImage+Color.m */,
+				769A235A1A0A40C900502611 /* UIImage+View.h */,
+				769A235B1A0A40C900502611 /* UIImage+View.m */,
+				76989A8B1A370F5E00725BE5 /* UIImage+QRCode.h */,
+				76989A8C1A370F5E00725BE5 /* UIImage+QRCode.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		76D2BB141A08BE67003A2885 /* Submodule */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BC361A091D4B003A2885 /* UIView-Visuals.git */,
+			);
+			path = Submodule;
+			sourceTree = "<group>";
+		};
+		76D2BC0E1A08BEAC003A2885 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BC0F1A08BEB9003A2885 /* JPApiManager.h */,
+				76D2BC101A08BEB9003A2885 /* JPApiManager.m */,
+				76D2BC121A08C0BD003A2885 /* JPApiManager+Stream.h */,
+				76D2BC131A08C0BD003A2885 /* JPApiManager+Stream.m */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		76D2BC291A08CED7003A2885 /* WeChatSDK_64 */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BC2A1A08CED7003A2885 /* libWeChatSDK.a */,
+				76D2BC2B1A08CED7003A2885 /* WXApi.h */,
+				76D2BC2C1A08CED7003A2885 /* WXApiObject.h */,
+			);
+			path = WeChatSDK_64;
+			sourceTree = "<group>";
+		};
+		76D2BC2E1A08CEF7003A2885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76CE786C1A1BA25B007BA763 /* OpenGLES.framework */,
+				76CE786A1A1BA24F007BA763 /* GLKit.framework */,
+				769E08851A11281B009EB475 /* MessageUI.framework */,
+				76D2BC271A08CD87003A2885 /* UIKit.framework */,
+				76D2BC251A08CD80003A2885 /* CoreGraphics.framework */,
+				76D2BC231A08CD7A003A2885 /* CFNetwork.framework */,
+				76D2BC211A08CD73003A2885 /* AudioToolbox.framework */,
+				76D2BC1F1A08CD6C003A2885 /* CoreMedia.framework */,
+				76D2BC1D1A08CD63003A2885 /* CoreVideo.framework */,
+				76D2BC1B1A08CD5C003A2885 /* Security.framework */,
+				76D2BC191A08CD55003A2885 /* CoreData.framework */,
+				76D2BC171A08CD3D003A2885 /* libz.dylib */,
+				76D2BC151A08CD38003A2885 /* AVFoundation.framework */,
+				F7BC57FE0CF08DF7276CDE24 /* libPods-Jipai.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76D2BC2F1A08D6A2003A2885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				769A234D1A09FA8900502611 /* JPButton.h */,
+				769A234E1A09FA8900502611 /* JPButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		76D2BC361A091D4B003A2885 /* UIView-Visuals.git */ = {
+			isa = PBXGroup;
+			children = (
+				76D2BC371A091D4B003A2885 /* CAMediaTimingFunction+AdditionalEquations.h */,
+				76D2BC381A091D4B003A2885 /* CAMediaTimingFunction+AdditionalEquations.m */,
+				76D2BC3A1A091D4B003A2885 /* UIView+Visuals.h */,
+				76D2BC3B1A091D4B003A2885 /* UIView+Visuals.m */,
+			);
+			path = "UIView-Visuals.git";
+			sourceTree = "<group>";
+		};
+		7E1824CE195B9E097B38B62A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6609398A53FEADA1BD15A81C /* Pods-Jipai.debug.xcconfig */,
+				91B576E604BFA5873E1C460E /* Pods-Jipai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76D2BA311A0889D2003A2885 /* Jipai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D2BA551A0889D2003A2885 /* Build configuration list for PBXNativeTarget "Jipai" */;
+			buildPhases = (
+				9162A5D6E01452D7CF97ED62 /* [CP] Check Pods Manifest.lock */,
+				76D2BA2E1A0889D2003A2885 /* Sources */,
+				76D2BA2F1A0889D2003A2885 /* Frameworks */,
+				76D2BA301A0889D2003A2885 /* Resources */,
+				76C8BC111A1E473800AABA69 /* ShellScript */,
+				730BF8807530E818438B5B13 /* [CP] Embed Pods Frameworks */,
+				3269E2D47D857AB55FAEF2A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jipai;
+			productName = Jipai;
+			productReference = 76D2BA321A0889D2003A2885 /* Jipai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76D2BA2A1A0889D2003A2885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qgenius;
+				TargetAttributes = {
+					76D2BA311A0889D2003A2885 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 2LA7SLA9PL;
+					};
+				};
+			};
+			buildConfigurationList = 76D2BA2D1A0889D2003A2885 /* Build configuration list for PBXProject "Jipai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76D2BA291A0889D2003A2885;
+			productRefGroup = 76D2BA331A0889D2003A2885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76D2BA311A0889D2003A2885 /* Jipai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D2BA301A0889D2003A2885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D2BA411A0889D2003A2885 /* Main.storyboard in Resources */,
+				76D2BA461A0889D2003A2885 /* LaunchScreen.xib in Resources */,
+				76678BAA1A1378170012B545 /* end_video_record.caf in Resources */,
+				76D2BA431A0889D2003A2885 /* Images.xcassets in Resources */,
+				76678BA91A1378170012B545 /* begin_video_record.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3269E2D47D857AB55FAEF2A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jipai/Pods-Jipai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		730BF8807530E818438B5B13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jipai/Pods-Jipai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C8BC111A1E473800AABA69 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./auto_version.sh;
+		};
+		9162A5D6E01452D7CF97ED62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76D2BA2E1A0889D2003A2885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D2BC411A092390003A2885 /* UIColor+Hex.m in Sources */,
+				76D2BA3B1A0889D2003A2885 /* AppDelegate.m in Sources */,
+				76D2BA641A088F37003A2885 /* JPCaptureViewController.m in Sources */,
+				76989A8A1A369E7200725BE5 /* JPQRViewController.m in Sources */,
+				76989A8D1A370F5E00725BE5 /* UIImage+QRCode.m in Sources */,
+				76D2BC111A08BEB9003A2885 /* JPApiManager.m in Sources */,
+				76D2BC141A08C0BD003A2885 /* JPApiManager+Stream.m in Sources */,
+				769A234F1A09FA8900502611 /* JPButton.m in Sources */,
+				769A235C1A0A40C900502611 /* UIImage+View.m in Sources */,
+				769A235F1A0A45BC00502611 /* JPShareViewController.m in Sources */,
+				76D2BC3C1A091D4B003A2885 /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
+				76D2BA381A0889D2003A2885 /* main.m in Sources */,
+				769A23521A0A31BA00502611 /* UIImage+Color.m in Sources */,
+				76D2BC3E1A091D4B003A2885 /* UIView+Visuals.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76D2BA3F1A0889D2003A2885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D2BA401A0889D2003A2885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76D2BA441A0889D2003A2885 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D2BA451A0889D2003A2885 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76D2BA531A0889D2003A2885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		76D2BA541A0889D2003A2885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		76D2BA561A0889D2003A2885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6609398A53FEADA1BD15A81C /* Pods-Jipai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Jipai/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/libs/WeChatSDK_64",
+				);
+				INFOPLIST_FILE = Jipai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/WeChatSDK_64",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qgenius.Jipai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		76D2BA571A0889D2003A2885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B576E604BFA5873E1C460E /* Pods-Jipai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Jipai/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/libs/WeChatSDK_64",
+				);
+				INFOPLIST_FILE = Jipai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs/WeChatSDK_64",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qgenius.Jipai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76D2BA2D1A0889D2003A2885 /* Build configuration list for PBXProject "Jipai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D2BA531A0889D2003A2885 /* Debug */,
+				76D2BA541A0889D2003A2885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D2BA551A0889D2003A2885 /* Build configuration list for PBXNativeTarget "Jipai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D2BA561A0889D2003A2885 /* Debug */,
+				76D2BA571A0889D2003A2885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76D2BA2A1A0889D2003A2885 /* Project object */;
+}

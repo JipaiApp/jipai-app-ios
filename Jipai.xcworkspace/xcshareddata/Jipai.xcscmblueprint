@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CD07FDAC534F5FB8FB1C7BFA793ECF3B423BAF16",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E3CA97A4D0A57AEDFA77BE925E24F5813E165E2C" : 0,
+    "E41BE06B78DB194196625258C5006B52033E0ECA" : 0,
+    "CD07FDAC534F5FB8FB1C7BFA793ECF3B423BAF16" : 0,
+    "76EE23144956FD448CD8A05C304AB17C97B64D64" : 0,
+    "1BF691F39ED0677A8B362908E52DEC0A9D842488" : 0,
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "90236576-0E71-473E-86FA-C032BF7931E9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E3CA97A4D0A57AEDFA77BE925E24F5813E165E2C" : "jipai-ios-appSubmodule\/AFNetworkActivityLogger.git",
+    "E41BE06B78DB194196625258C5006B52033E0ECA" : "jipai-ios-app\/Submodule\/iOS-QR-Code-Encoder.git",
+    "CD07FDAC534F5FB8FB1C7BFA793ECF3B423BAF16" : "jipai-app-ios\/",
+    "76EE23144956FD448CD8A05C304AB17C97B64D64" : "jipai-ios-app",
+    "1BF691F39ED0677A8B362908E52DEC0A9D842488" : "jipai-ios-appSubmodule\/UIView-Visuals.git",
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : "jipai-ios-appSubmodule\/AFNetworking.git"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Jipai",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Jipai.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bfolder\/UIView-Visuals.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BF691F39ED0677A8B362908E52DEC0A9D842488"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/why404\/jipai-ios-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "76EE23144956FD448CD8A05C304AB17C97B64D64"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:JipaiApp\/jipai-app-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD07FDAC534F5FB8FB1C7BFA793ECF3B423BAF16"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AFNetworking\/AFNetworking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AFNetworking\/AFNetworkActivityLogger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3CA97A4D0A57AEDFA77BE925E24F5813E165E2C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/moqod\/iOS-QR-Code-Encoder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E41BE06B78DB194196625258C5006B52033E0ECA"
+    }
+  ]
+}
